@@ -4,6 +4,7 @@
 
 使用说明：
 1、spring配置文件参考
+
 	<bean id="masterDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
 		destroy-method="close">
 		<property name="driverClass" value="${jdbc.driver}" />
